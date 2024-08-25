@@ -17,7 +17,7 @@ Primeiro, navegue até o diretório da biblioteca (`minhaBib`) e execute os segu
 
 ```bash
 cd minhaBib
-mvn install:install-file -Dfile=LTTS7EngineClient.jar -DgroupId=com.loquendo -DartifactId=loquendoLib -Dversion=1.0.0 -Dpackaging=jar -DgeneratePom=true-DgeneratePom=true
+mvn install:install-file -Dfile=LTTS7EngineClient.jar -DgroupId=com.loquendo -DartifactId=loquendoLib -Dversion=1.0.0 -Dpackaging=jar -DgeneratePom=true
 mvn clean install
 ```
 
